@@ -13,25 +13,25 @@ thumbnail: "/images/DaaS-03-RemoteGateway-UserManual/1/4.png"
 
 提供したURLのショートカットリンクを開いてください。
 
- ![ショートカットリンク](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/1.png "ショートカットリンク")
+ ![ショートカットリンク](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/1.png "ショートカットリンク")
 
 ## 1-2.ログインページ詳細設定画面 
 
 ログインページにて「詳細設定」を開きます。
 
- ![詳細設定](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/2.png "詳細設定")
+ ![詳細設定](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/2.png "詳細設定")
 
 ## 1-3.SSL確認画面 
 
 「xxxxxxにアクセスする」リンクをクリックします。
 
- ![SSL確認](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/3.png "SSL確認")
+ ![SSL確認](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/3.png "SSL確認")
 
 ## 1-4.ユーザ名とパスワードを入力 
 
 ユーザ名とパスワードを入力します。
 
- ![ユーザ名とパスワード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/4.png "ユーザ名とパスワード")
+ ![ユーザ名とパスワード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/4.png "ユーザ名とパスワード")
 
 ## 1-5.QRコードによる2段階認証(1) 
 
@@ -50,9 +50,9 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 2. Google Authenticator に表示された 6桁の認証コードを入力してください。  
 3. 「次へ」をクリックします。  
 
-![QRコードによる2段階認証(1) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/5.png "QRコードによる2段階認証(1) ")
+![QRコードによる2段階認証(1) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/5.png "QRコードによる2段階認証(1) ")
 
-![QRコードによる2段階認証(1) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/5.1.png "QRコードによる2段階認証(1) ")
+![QRコードによる2段階認証(1) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/5.1.png "QRコードによる2段階認証(1) ")
 
 ## 1-6.QRコードによる2段階認証(2) 
 
@@ -61,7 +61,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 1. Google Authenticatorに表示された 6桁の認証コードを入力してください。  
 2. 「次へ」をクリックします。
 
- ![QRコードによる2段階認証(2) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/6.png "QRコードによる2段階認証(2) ")
+ ![QRコードによる2段階認証(2) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/1/6.png "QRコードによる2段階認証(2) ")
 
 ## 2.仮想デスクトップへの接続 
 
@@ -69,13 +69,13 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 ホーム画面にて対象の接続先「例：daas-ユーザアカウント名」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/2/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/2/1.png "ホーム")
 
 ## 2-2.ログイン後の画面 
 
 デスクトップが表示されます。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/2/2.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/2/2.png "ホーム")
 
 ## 3.パネルからのDaaS切断 
 
@@ -83,13 +83,13 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 「alt」+「ctrl」+「shift」を押下します。
 
- ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/3/1.png "DaaS切断")
+ ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/3/1.png "DaaS切断")
 
 ## 3-2.「alt」「ctrl」「shift」によるパネルからの切断(2) 
 
 ユーザ名アイコンをクリックして表示されたメニューから「切断」をクリックします。
 
- ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/3/2.png "DaaS切断")
+ ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/3/2.png "DaaS切断")
 
 ## 3-3.ログアウト画面 
 
@@ -97,7 +97,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 `※「ログアウト」をクリックすると Remote Gateway からログアウトしログイン画面(このマニュアルの「1.Remote Gatewayへのログイン」-「4.ユーザ名とパスワードを入力」)に戻ります。`   
 `ログアウト後に再びログインするにはユーザ名とパスワードを入力 しGoogle Authenticator に表示された6桁の認証コードを入力します。`
 
- ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/3/3.png "DaaS切断")
+ ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/3/3.png "DaaS切断")
 
 ## 4.スタートメニューからのDaaS切断 
 
@@ -105,13 +105,13 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 スタートメニューから電源ボタンを押下します。
 
- ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/4/1.png "DaaS切断")
+ ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/4/1.png "DaaS切断")
 
 ## 4-2.スタートメニューからの切断(2) 
 
 「切断」を押下します。
 
- ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/4/2.png "DaaS切断")
+ ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/4/2.png "DaaS切断")
 
 ## 4-3.ログアウト画面 
 
@@ -119,7 +119,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 `※「ログアウト」をクリックすると Remote Gateway からログアウトしログイン画面(このマニュアルの「1.Remote Gatewayへのログイン」-「4.ユーザ名とパスワードを入力」)に戻ります。`   
 `ログアウト後に再びログインするにはユーザ名とパスワードを入力 しGoogle Authenticator に表示された6桁の認証コードを入力します。`
 
- ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/4/3.png "DaaS切断")
+ ![DaaS切断](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/4/3.png "DaaS切断")
 
 ## 5.ファイルアップロード・ダウンロード 
 
@@ -129,34 +129,34 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 クライアントPC上のファイルを Remote Gateway (ブラウザ)にドラッグすると、仮想デスクトップの「&yen;&yen;tsclient&yen;RG」以下にファイルがコピーされます。
 
- ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/1.png "アップロード")
+ ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/1.png "アップロード")
 
 ## 5-2.クライアントPCから仮想デスクトップへのファイルアップロード【パネルからの方法】(1) 
 
 「alt」+「ctrl」+「shift」を押下してパネルから「Shared Drive」をクリックします。
 
- ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/2.png "アップロード")
+ ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/2.png "アップロード")
 
 ## 5-3.クライアントPCから仮想デスクトップへのファイルアップロード【パネルからの方法】(2) 
 
 「ファイルアップロード」をクリックします。
 
- ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/3.png "アップロード")
+ ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/3.png "アップロード")
 
 ## 5-4.クライアントPCから仮想デスクトップへのファイルアップロード【パネルからの方法】(3) 
 
 アップロード対象ファイルを選択します。
 
- ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/4.png "アップロード")
+ ![アップロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/4.png "アップロード")
 
 ## 5-5.仮想デスクトップからクライアントPCへのファイルダウンロード(1) 
 
 仮想デスクトップ上のファイルを「&yen;&yen;tsclient&yen;RG&yen;Download」以下にドラッグします。
 
- ![ダウンロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/5.png "ダウンロード")
+ ![ダウンロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/5.png "ダウンロード")
 
 ## 5-6.仮想デスクトップからクライアントPCへのファイルダウンロード(2) 
 
 クライアントPC側でダウンロードが開始されます。
 
- ![ダウンロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/6.png "ダウンロード")
+ ![ダウンロード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-UserManual/5/6.png "ダウンロード")

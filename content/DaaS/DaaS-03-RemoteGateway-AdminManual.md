@@ -13,25 +13,25 @@ thumbnail: "/images/DaaS-03-RemoteGateway-AdminManual/1/4.png"
 
 提供したURLのショートカットリンクを開いてください。
 
- ![ショートカットリンク](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/1.png "ショートカットリンク")
+ ![ショートカットリンク](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/1.png "ショートカットリンク")
 
 ## 1-2.ログインページ詳細設定画面 
 
 ログインページにて「詳細設定」を開きます。
 
- ![詳細設定](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/2.png "詳細設定")
+ ![詳細設定](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/2.png "詳細設定")
 
 ## 1-3.SSL確認画面 
 
 「xxxxxxにアクセスする」リンクをクリックします。
 
- ![SSL確認](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/3.png "SSL確認")
+ ![SSL確認](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/3.png "SSL確認")
 
 ## 1-4.ユーザ名とパスワードを入力 
 
 ユーザ名とパスワードを入力します。
 
- ![ユーザ名とパスワード](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/4.png "ユーザ名とパスワード")
+ ![ユーザ名とパスワード](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/4.png "ユーザ名とパスワード")
 
 ## 1-5.QRコードによる2段階認証(1) 
 
@@ -50,7 +50,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 2. Google Authenticator に表示された 6桁の認証コードを入力してください。  
 3. 「次へ」をクリックします。  
 
- ![QRコードによる2段階認証(1) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/5.png "QRコードによる2段階認証(1) ")
+ ![QRコードによる2段階認証(1) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/5.png "QRコードによる2段階認証(1) ")
 
 ## 1-6.QRコードによる2段階認証(2) 
 
@@ -59,7 +59,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 1. Google Authenticatorに表示された 6桁の認証コードを入力してください。  
 2. 「次へ」をクリックします。
 
- ![QRコードによる2段階認証(2) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/6.png "QRコードによる2段階認証(2) ")
+ ![QRコードによる2段階認証(2) ](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/6.png "QRコードによる2段階認証(2) ")
 
 ## 2.基本的な仮想デスクトップ接続設定 
 
@@ -67,19 +67,19 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 ログイン後のホーム画面にて右上のユーザ名アイコンをクリックして表示されたメニューから「設定」をクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/1.png "ホーム")
 
 ## 2-2.設定画面にて接続を選択 
 
 設定画面にて「接続」タブをクリックします。
 
- ![接続](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/2.png "接続")
+ ![接続](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/2.png "接続")
 
 ## 2-3.接続設定画面にて接続の追加 
 
 接続タブ以下にて「接続の追加」をクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/3.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/3.png "ホーム")
 
 ## 2-4.接続名と接続プロトコルの設定 
 
@@ -88,7 +88,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 - 「名前」にDaaS接続の名前 (「daas-taro.yamada」のように「daas-ユーザアカウント名」でお願いします。)
 - 「プロトコル」にて「RDP」を選択
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/4.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/4.png "ホーム")
 
 ## 2-5.接続先IPアドレス・ログインアカウント・パスワードの設定 
 
@@ -104,7 +104,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 「基本設定」までスクロールします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/5.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/5.png "ホーム")
 
 ## 2-6.キーボードレイアウトの設定 
 
@@ -115,7 +115,7 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 「ディスプレイ」までスクロールします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/6.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/6.png "ホーム")
 
 ## 2-7.ディスプレイサイズ変更方法の設定 
 
@@ -125,19 +125,19 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 ページ下部までスクロールします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/7.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/7.png "ホーム")
 
 ## 2-8.設定を保存 
 
 「保存」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/8.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/8.png "ホーム")
 
 ## 2-9.ホーム画面に移動 
 
 右上のユーザ名アイコンをクリックして表示されたメニューから「ホーム」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/9.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/2/9.png "ホーム")
 
 ## 3.仮想デスクトップへの接続 
 
@@ -145,13 +145,13 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 ホーム画面にて対象の接続先「例：daas-ユーザアカウント名」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/3/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/3/1.png "ホーム")
 
 ## 3-2.ログイン後の画面 
 
 デスクトップが表示されます。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/3/2.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/3/2.png "ホーム")
 
 ## 4.IME日本語入力ON/OFFキーの設定 
 
@@ -159,49 +159,49 @@ iOS用 Google Authenticator はこちらからダウンロードしてくださ�
 
 接続後のデスクトップ画面にてタスクバー右の「A」を右クリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/1.png "ホーム")
 
 ## 4-2.IMEプロパティを起動(2) 
 
 プロパティを選択します。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/2.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/2.png "ホーム")
 
 ## 4-3.IMEプロパティの詳細設定 
 
 「詳細設定」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/3.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/3.png "ホーム")
 
 ## 4-4.キー設定 
 
 編集操作にて「Microsoft IME」を選択し、「変更」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/4.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/4.png "ホーム")
 
 ## 4-5.「Shift+TAB」のキーアサイン変更 
 
 「Shift+TAB」の一番左側(入力/変換文字なし)のキーアサインが「-」であることを確認し、ダブルクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/5.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/5.png "ホーム")
 
 ## 4-6.「IME-オン/オフ」を選択 
 
 「IME-オン/オフ」を選択し、OKをクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/6.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/6.png "ホーム")
 
 ## 4-7.キー設定の確定 
 
 「Shift + TAB」の一番左側が「IME-オン/オフ」になっていることを確認し、OKをクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/7.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/7.png "ホーム")
 
 ## 4-8.IMEプロパティの確定 
 
 OKをクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/8.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/4/8.png "ホーム")
 
 ## 5.パネルからのDaaS切断 
 
@@ -209,20 +209,20 @@ OKをクリックします。
 
 「alt」+「ctrl」+「shift」を押下します。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/5/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/5/1.png "ホーム")
 
 ## 5-2.「alt」「ctrl」「shift」によるパネルからの切断(2) 
 
 ユーザ名アイコンをクリックして表示されたメニューから「切断」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/5/2.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/5/2.png "ホーム")
 
 ## 5-3.ログアウト画面 
 
 「ログアウト」をクリックすることでRemoteGatewayからログアウトします。  
 「ホーム」をクリックすることでホーム画面に移動します。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/5/3.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/5/3.png "ホーム")
 
 ## 6.スタートメニューからのDaaS切断 
 
@@ -230,20 +230,20 @@ OKをクリックします。
 
 スタートメニューから電源ボタンを押下します。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/6/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/6/1.png "ホーム")
 
 ## 6-2.スタートメニューからの切断(2) 
 
 「切断」を押下します。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/6/2.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/6/2.png "ホーム")
 
 ## 6-3.ログアウト画面 
 
 「ログアウト」をクリックすることで Remote Gateway からログアウトします。  
 「ホーム」をクリックすることでホーム画面に移動します。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/6/3.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/6/3.png "ホーム")
 
 ## 7.接続設定の変更(機能有効化) 
 
@@ -251,13 +251,13 @@ OKをクリックします。
 
 ホーム画面にて右上のユーザ名アイコンをクリックして表示されたメニューから「設定」をクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/1.png "ホーム")
 
 ## 7-2.設定画面にて接続を選択 
 
 設定画面にて「接続」タブをクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/2.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/2.png "ホーム")
 
 ## 7-3.ファイルアップロードダウンロードの有効化 
 
@@ -271,7 +271,7 @@ OKをクリックします。
 
 「スクリーンレコーディング」までスクロールします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/3.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/3.png "ホーム")
 
 ## 7-4.動画ログの有効化設定 
 
@@ -282,19 +282,19 @@ OKをクリックします。
 
 ページ下部までスクロールします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/4.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/4.png "ホーム")
 
 ## 7-5.設定を保存 
 
 「保存」をクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/5.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/5.png "ホーム")
 
 ## 7-6.ホーム画面に移動 
 
 右上のユーザ名アイコンをクリックして表示されたメニューから「ホーム」をクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/6.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/7/6.png "ホーム")
 
 ## 8.ユーザ追加 
 
@@ -302,19 +302,19 @@ OKをクリックします。
 
 ホーム画面にて右上のユーザ名アイコンをクリックして表示されたメニューから「設定」をクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/1.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/1.png "ホーム")
 
 ## 8-2.設定画面にてユーザを選択 
 
 設定画面にて「ユーザ」タブをクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/2.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/2.png "ホーム")
 
 ## 8-3.ユーザ設定画面にてユーザの追加 
 
 ユーザタブ以下にて「ユーザ追加」をクリックします。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/3.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/3.png "ホーム")
 
 ## 8-4.ユーザの編集画面にてユーザパラメータの追加 
 
@@ -329,10 +329,10 @@ OKをクリックします。
 
 3. 既存の接続をユーザに紐付けるには「すべての接続」タブをクリックし接続オブジェクトを選択します。  
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/4.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/4.png "ホーム")
 
 ## 8-5.設定を保存 
 
 「保存」をクリックします。
 
- ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/5.png "ホーム")
+ ![ホーム](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/8/5.png "ホーム")

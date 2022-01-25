@@ -46,7 +46,7 @@ thumbnail: "/images/DaaS-01-ServiceSpecifications/image_2-1.png"
 - オプションサービス（詳細は4章参照）  
 
 以下の図は本サービスの利用例です。  
-![2-1](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-1.png)
+![2-1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-1.png)
 
 仮想デスクトップを展開するクラウドプラットフォームのリージョンは、以下の参照先から選択いただけます。  
 
@@ -120,7 +120,7 @@ https://www.alibabacloud.com/cloud-tech/ja/doc-detail/40653.htm
 VPC はそれぞれ独立しており、VPC 間を跨いで通信が行われることはありません。  
 VPC は1つの契約で複数持つことも可能です。  
 
-![2-4](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-4.png)
+![2-4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-4.png)
 
 ## 2.5. サービス利用イメージ
 
@@ -134,15 +134,15 @@ VPC は1つの契約で複数持つことも可能です。
 既設のオンプレミス環境から接続する場合、お客様設備のルータまたはファイアウォールとの間をインターネットVPNで接続するIPsecもサポートします。  
 サービス利用・接続のイメージは下図の通りです。  
 
-![2-5-1](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-5-1.png)
+![2-5-1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-5-1.png)
 
 接続方式によるメディアへの対応は以下の通りです。  
 
-![2-5-2](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-5-2.png)
+![2-5-2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-5-2.png)
 
 仮想デスクトップで対応するVPN方式一覧は以下の通りです。  
 
-![2-5-3](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-5-3.png)
+![2-5-3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_2-5-3.png)
 
 ## 2.6. セキュリティポリシー
 
@@ -184,14 +184,14 @@ VPC は1つの契約で複数持つことも可能です。
 - 仮想デスクトップの起動停止スケジュール設定  
 - 仮想デスクトップのスペック変更  
 
-![3-3](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_3-3.png)
+![3-3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_3-3.png)
 
 ## 3.4. 操作ポータル（利用者）
 
 本サービスを契約すると利用者用操作ポータルが提供されます。  
 利用者用操作ポータルでは、仮想デスクトップやクラウド管理コンソールにログオンすることなく利用者にて自身の仮想テスクトップの停止・起動が可能です。  
 
-![3-4](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_3-4.png)
+![3-4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_3-4.png)
 
 ## 3.5. セキュリティパッチ
 
@@ -232,7 +232,7 @@ MSRDS ライセンスオプションは仮想デスクトップ上でWebカメ�
 必要なユーザー数のみ月単位で契約が可能となります。  
 Remote Desktop マルチセッションオプションのように仮想デスクトップの共有はできませんが、その分料金が安価になります。  
 
-![4-3](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_4-3.png)
+![4-3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_4-3.png)
 
 ## 4.4. Remote Desktop マルチセッションオプション
 
@@ -240,7 +240,7 @@ Remote Desktop マルチセッションオプションは1台の仮想デスク�
 Microsoft Remote Desktop Service の機能により複数ユーザーが同時にログオンできる環境を提供します。  
 本オプションサービスにより仮想デスクトップ上でもWebカメラやマイクが利用可能になりリモートWeb会議等にも対応できるようになります。  
 
-![4-4](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_4-4.png)
+![4-4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_4-4.png)
 
 ## 4.5. 追加構築オプション
 
@@ -269,7 +269,7 @@ Microsoft Remote Desktop Service の機能により複数ユーザーが同時�
 QAサポートの基本料金と作業代行のサービスクレジットを合わせた料金体系となっており、作業代行のサービスメニューをご利用の場合にサービスクレジットの購入が必要となります。  
 デスクトップ追加、インスタンス再起動、マスタイメージ追加作成など、作業内容に応じてサービスクレジットを消費します。  
 
-![5-1](https://raw.githubusercontent.com/sbopsv/cloud-tech/main/content/DaaS/images/DaaS-01-ServiceSpecifications/image_5-1.png)
+![5-1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-01-ServiceSpecifications/image_5-1.png)
 
 ## 5.2 MSPメニュー
 
