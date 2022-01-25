@@ -1,0 +1,16 @@
+import React from 'react';
+import './components/styles.css';
+// eslint-disable-next-line import/no-unresolved
+import IndexImg from './components/images/Index_background-image.svg';
+
+const IndexMenu = () => {
+  return (
+    <>
+      <div className="indexImgSection">
+        <img src={IndexImg} alt='Index_backgroundimage'/>
+      </div>
+    </>
+  );
+};
+
+export default IndexMenu;
