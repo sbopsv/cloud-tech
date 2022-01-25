@@ -1,17 +1,17 @@
 const config = {
 	"gatsby": {
-		"pathPrefix": "/ct-test-public",
-		"siteUrl": "https://ohiro18.github.io/ct-test-public",
+		"pathPrefix": "/cloud-tech",
+		"siteUrl": "https://sbopsv.github.io/cloud-tech",
 		"gaTrackingId": "GTM-WLG6JZ3",
 		"trailingSlash": false				
 	},
 	
 	"header": {
-		"logo": "https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/favicon.png",
-		"logoLink": "https://ohiro18.github.io/ct-test-public/",
+		"logo": "https://raw.githubusercontent.com/sbopsv/cloud-tech/master/src/components/images/favicon.png",
+		"logoLink": "https://sbopsv.github.io/cloud-tech/",
 		"title": "テクニカルリファレンス",
-		"githubUrl": "https://github.com/ohiro18/ct-test-public",
-		"rss": "https://sbcloud.github.io/help/rss.xml",
+		"githubUrl": "https://github.com/sbopsv/cloud-tech",
+		"rss": "https://sbopsv.github.io/cloud-tech/rss.xml",
 		"links": [
 			{ "text": "", "link": ""}
 		],
@@ -103,8 +103,8 @@ const config = {
 		"title": "テクニカルリファレンス",
 		"description": "これはSoftBankのクラウドエンジニアリングによるAlibaba Cloud テクニカルリファレンスです。Alibaba Cloudを知らない人や、初心者・中級者がサービス構築出来るよう、お手伝いいたします。",
 		"ogImage": null,
-		"docsLocation": "https://github.com/ohiro18/ct-test-public/tree/master/content",
-		"favicon": "https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/favicon.png"
+		"docsLocation": "https://github.com/sbopsv/cloud-tech/tree/master/content",
+		"favicon": "https://raw.githubusercontent.com/sbopsv/cloud-tech/master/src/components/images/favicon.png"
 	},
 	"pwa": {
 		"enabled": false, // disabling this will also remove the existing service worker.
