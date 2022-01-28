@@ -103,7 +103,7 @@ const Header = (props) => {
               <div className="brand">
                 <a href="https://sbopsv.github.io/cloud-tech">
                   <img
-                    src="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/TechnicalSite_5.png"
+                    src="https://raw.githubusercontent.com/sbopsv/cloud-tech/master/src/components/images/TechnicalSite_5.png"
                     alt="TechnicalSite Logo"
                     title="TechnicalSite Logo"
                   />

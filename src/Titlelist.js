@@ -40,7 +40,7 @@ export default Titlelist;
     metaTitle="ApsaraDB for ClickHouseの紹介"
     metaDescription="ApsaraDB for ClickHouseの紹介"
     url="http://localhost:8000/usecase-ClickHouse/ACH_001_what-is-clickhouse"
-    imageurl="https://raw.githubusercontent.com/sbcloud/help/master/content/usecase-ClickHouse/AI_images_26006613460940500/20191113152500.png"
+    imageurl="https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/usecase-ClickHouse/AI_images_26006613460940500/20191113152500.png"
     date="2021/07/15"
     author="Hironobu Ohara"
 />

@@ -3,7 +3,7 @@
 
 ## 🔗 サイト
 
-Here's [https://sbcloud.github.io/help/](https://sbcloud.github.io/help/)
+Here's [https://sbopsv.github.io/cloud-tech/](https://sbopsv.github.io/cloud-tech/)
 
 ## 概要
 Alibaba Cloudの初心者から、開発者向けに照らしつつ、Alibaba Cloudをどのように使用するか、プロダクトサービスの説明、シナリオに応じた構築方法を技術的に理解するためのサイトです。
@@ -30,11 +30,10 @@ mdファイル格納後、、
 以下、コマンドを実行してください（node、npm、yarnがインストールされていることが前提）
 
 ```
-$ git clone https://github.com/sbcloud/help.git
+$ git clone https://github.com/sbopsv/cloud-tech.git
 $ npm install -g gatsby-cli
 $ npm cache clean --force
 $ yarn install
-$ yarn add gatsby-plugin-feed
 $ gatsby clean
 $ gatsby develop
 ```
@@ -51,16 +50,6 @@ $ npm cache clean --force
 $ yarn install
 $ gatsby clean
 $ gatsby develop
-```
-
-
-何かトラブルが起きた場合は以下コマンドを参考に対処します。
-[参考: npm ERR! Error: EPERM: operation not permitted, rename](https://stackoverflow.com/questions/39293636/npm-err-error-eperm-operation-not-permitted-rename/43987591)
-
-折り返し、上記コマンドにも含まれていますが、このリソースを初めてビルドする場合は、初期設定として以下プラグインが必要です。
-```
-yarn add gatsby-plugin-feed
-yarn add gatsby-plugin-google-gtag
 ```
 
 ### 注意事項

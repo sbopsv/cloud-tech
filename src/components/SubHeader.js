@@ -31,7 +31,7 @@ const Header = ({ location, title }) => (
 
       const finalLogoLink = logo.link !== '' ? logo.link : '/';
 
-      const breadCrumb = headerTitle + "<img src='https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/chevron-right.svg' alt='Chevron Right' />" + title;
+      const breadCrumb = headerTitle + "<img src='https://raw.githubusercontent.com/sbopsv/cloud-tech/master/src/components/images/chevron-right.svg' alt='Chevron Right' />" + title;
 
       return (
         <div className="navBarWrapper">

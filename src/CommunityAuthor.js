@@ -15,7 +15,7 @@ const CommunityAuthor = ({ author, self_introduction, imageUrl, githubUrl }) => 
             {githubUrl ? (
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <img
-                  src="https://raw.githubusercontent.com/sbcloud/help/master/src/components/images/github-icon.svg"
+                  src="https://raw.githubusercontent.com/sbopsv/cloud-tech/master/src/components/images/github-icon.svg"
                   alt="Github Icon"
                   aria-label="Github"
                 />

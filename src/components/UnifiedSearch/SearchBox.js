@@ -11,11 +11,18 @@ const searchSuggestions = [
   '比較一覧',
   'ユースケース',
   '日中NW',
+  'Cloud Remote Desktop',
   'ICP',
+  'CEN',
   'PolarDB',
+  'OSS',
   'SAG-APP',
+  'マイグレーション',
   'NextCloud',
-  'Cloudflare',  
+  'Cloudflare',
+  'LogService',
+  'Elasticsearch',
+  'ClickHouse',  
 ];
 
 const StyledSeachBoxWrapper = styled.div`

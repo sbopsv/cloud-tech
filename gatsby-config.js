@@ -65,7 +65,7 @@ const plugins = [
   {
     resolve: 'gatsby-plugin-preconnect',
     options: {
-      domains: ['https://wcbb1vvlrc-dsn.algolia.net'],
+      domains: ['https://APGJ5PHUST-dsn.algolia.net'],///{Application-ID}-dsn.algolia.net
     },
   },
   

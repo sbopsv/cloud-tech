@@ -221,6 +221,10 @@ export default function SearchWrapper({ indices, defaultIndex }) {
 
   const [activeIndexTypes, setActiveIndexTypes] = useState(defaultIndexTypesState);
 
+  console.log("-PPPP-");
+  console.log(indices[0].name);
+  console.log("-QQQQ-");  
+  
   return (
     <InstantSearch
       searchClient={searchClient}

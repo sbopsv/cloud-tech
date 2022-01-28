@@ -91,7 +91,7 @@ const config = {
 				"/ICP"
 			],			  
 		"links":[{ text: 'お問い合わせ', link: 'https://tm.softbank.jp/form/cloud/iaas/index.php?ref=lp-alibaba' },
-		{ text: 'ソフトバンクのAlibabaCloudへ', link: 'https://www.softbank.jp/biz/services/platform/alibabacloud/' },
+		{ text: 'ソフトバンクのAlibabaCloudサービス', link: 'https://www.softbank.jp/biz/services/platform/alibabacloud/' },
 		{ text: 'サービス構築はPSへ', link: 'https://www.softbank.jp/biz/services/platform/alibabacloud/about/ps/' },		
 		{ text: '監視・運用代行はMSPへ', link: 'https://www.softbank.jp/biz/services/platform/alibabacloud/about/msp/' },
 		{ text: 'よくある質問はTSSへ', link: 'https://www.softbank.jp/biz/services/platform/alibabacloud/about/ts/' },
