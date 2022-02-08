@@ -80,6 +80,7 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 ![5.2.1.1.9](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.9-create-success.png)  
 ユーザーポータル用の情報ファイルをダウンロード後、完了ボタンを押下します。  
 以上でデスクトップの作成が完了しました。  
+※デスクトップ作成は内部処理のため約5分間かかります。5分後作成対象のデスクトップを一度再起動後、ログイン確認お願いいたします。  
 ## 4.2.1.2 デスクトップの削除
 （１）デスクトップ管理＞作成・削除を選択します。  
 ![5.2.1.2.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.2.1-menu-delete.png)  
