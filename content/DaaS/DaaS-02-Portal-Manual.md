@@ -240,7 +240,7 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 ![5.4.1.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.4.1.2-select-create.png)  
 （３）作成方法を選択します。本手順ではデスクトップから作成を選択します。　　
 対象デスクトップを選択します。　　
-イメージ名と説明文を入力し、「次へ」を押下します。　　
+イメージ名と説明文を入力し、「次へ」を押下します。  
 ![5.4.1.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.4.1.3-select-target-ecs.png)  
 （４）作成内容を確認し、問題なければ「OK」を押下します。  
 ※イメージ作成に時間を要する場合がございます。  
