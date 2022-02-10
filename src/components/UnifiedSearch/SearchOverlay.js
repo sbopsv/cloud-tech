@@ -55,11 +55,11 @@ const StyledSearchOverlayWrapper = styled.div`
 //ToDo 検索が機能しない。　SearchOverlay > 
 const SearchOverlay = ({ showSearch, onCloseSearch, defaultIndex }) => {
 
-  console.log("--!!!-----------");
-  console.log(showSearch);
-  console.log(onCloseSearch);
-  console.log(defaultIndex);    
-  console.log("--------------");
+//  console.log("--!!!-----------");
+//  console.log(showSearch);
+//  console.log(onCloseSearch);
+//  console.log(defaultIndex);    
+//  console.log("--------------");
   useEffect(() => {
     if (showSearch) {
       document.body.style.overflow = "hidden";
