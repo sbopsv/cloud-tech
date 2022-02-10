@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: main
+    branches: master
 jobs:
   build-and-deploy:
     name: Build and deploy Gatsby site
@@ -54,7 +54,4 @@ jobs:
           git commit -m "Update pages"
           git pull
           git push origin main
-          
-# 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 
-
 
