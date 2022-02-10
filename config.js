@@ -23,6 +23,7 @@ const config = {
 			"algoliaAdminKey": process.env.ALGOLIA_ADMIN_KEY
 		}
 	},
+  
 	"sidebar": {
 		"forcedNavOrder": [
 			"/introduction",
