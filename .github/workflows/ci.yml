@@ -51,12 +51,7 @@ jobs:
         run: |
           git config --local user.email "${{ secrets.GH_email }}"
           git config --local user.name "${{ secrets.GH_name }}"
-
-      - name: git remote set
-        run: |
-          git remote -v
-          git remote set-url origin git@github.com:sbopsv/cloud-tech.git
-          git remote -v    
+          
           
       - name: Commit files
         run: |
