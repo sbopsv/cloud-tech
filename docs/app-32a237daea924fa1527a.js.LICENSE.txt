@@ -37,7 +37,16 @@
  * @license BSD-2-Clause
  */
 
-/*! algoliasearch-lite.umd.js | 4.12.0 | © Algolia, inc. | https://github.com/algolia/algoliasearch-client-javascript */
+/*! algoliasearch-lite.umd.js | 4.12.1 | © Algolia, inc. | https://github.com/algolia/algoliasearch-client-javascript */
+
+/**
+ * Prism: Lightweight, robust, elegant syntax highlighting
+ *
+ * @license MIT <https://opensource.org/licenses/MIT>
+ * @author Lea Verou <https://lea.verou.me>
+ * @namespace
+ * @public
+ */
 
 /** @license React v16.13.1
  * react-is.production.min.js
