@@ -1,0 +1,60 @@
+name: Build and Deploy
+on:
+  push:
+    branches: main
+jobs:
+  build-and-deploy:
+    name: Build and deploy Gatsby site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2.4.0
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2.5.1
+        with:
+          node-version: '16.x'
+
+      - name: Install Project Dependencies
+        run: npm ci
+      - name: Install Gatsby CLI
+        run: npm install -g gatsby-cli
+
+      - name: yarn install
+        run: yarn install
+
+      - name: Clean public
+        run: rm -rf ./public/*
+
+      - name: Clean docs
+        run: rm -rf ./docs/*
+
+      - name: Build
+        run: gatsby build --prefix-paths
+      
+      - name: Check build result
+        run: ls -la public
+
+      - name: Upload docs
+        run: mv public/* docs/ 
+
+      - name: Check upload result
+        run: ls -la docs
+
+
+      - name: git setting
+        run: |
+          git config --local user.email "${{ secrets.GH_email }}"
+          git config --local user.name "${{ secrets.GH_name }}"
+
+      - name: Commit files
+        run: |
+          git add .
+          git commit -m "Update pages"
+          git pull
+          git push origin main
+          
+# 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 
+
+
