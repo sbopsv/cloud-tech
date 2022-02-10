@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2.4.0
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Install Node.js
         uses: actions/setup-node@v2.5.1
