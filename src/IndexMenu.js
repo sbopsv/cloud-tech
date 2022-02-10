@@ -1,15 +1,13 @@
 import React from 'react';
+import IndexImg from './components/images/backgroundimg.svg';
+
 import './components/styles.css';
-// eslint-disable-next-line import/no-unresolved
-
-import IndexImg from './components/images/Index_background-image.svg';
-
 
 const IndexMenu = () => {
   return (
     <>
       <div className="indexImgSection">      
-        <img className="IndexImg" src={IndexImg} alt='Index_backgroundimage'/>
+        <img className="backgroundimg" src={IndexImg} alt='backgroundimg'/>
       </div>
     </>
   );
