@@ -1,11 +1,16 @@
 name: Build and Deploy
+
 on:
-  push:
-    branches: master
+  pull_request:
+    branches:
+      - master
+    types: [closed]
+    
 jobs:
   build-and-deploy:
     name: Build and deploy Gatsby site
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
 
     steps:
       - name: Checkout Code
