@@ -12,10 +12,14 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 ## 2. ログイン
 （１）弊社より事前に展開したショートカットより、操作ポータルを開きます。  
 ![3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.1-portal-login.png)  
-（２）以下のユーザー名とパスワードを入力し、ログインを押下します。  
-- ユーザー名：弊社より事前に展開したもの  
-- パスワード：弊社より事前に展開したもの  
-（３）ログイン成功していることを確認します。  
+（２）以下のユーザー名とパスワードを入力し、ログインを押下します。
+- ユーザー名：弊社より事前に展開したもの
+- パスワード：弊社より事前に展開したもの
+
+（３）初めてログインする際はMFA登録を行う必要があります。  
+（４）MFA登録を行ったデバイスからワンタイムパスワードを入力します。  
+![3.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.3-mfa-login.png)  
+（５）ログイン成功していることを確認します。  
 ## 3. 共通ヘッダー
 ## 3.1 地域
 ヘッダー左側の地域ボタンを押下することで、地域ごとのデスクトップ一覧を切り替えることができます。  
@@ -28,6 +32,12 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 ## 3.3 ログアウト
 ヘッダ右側のログアウトボタンを押下することで、ポータルよりログアウトすることができます。  
 ![4.1.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.1.3-logout.png)  
+## 3.4 マニュアル
+ヘッダ右側のマニュアルボタンを押下することで、テクニカルサイトにアクセスすることができます。  
+![4.1.4](./images/DaaS-02-Portal-Manual/4.1.4-manual.png)  
+<!--
+![4.1.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.1.4-manual.png)  
+-->
 ## 4. 管理者メニュー
 ## 4.1 ダッシュボード
 ダッシュボード機能についてご紹介します。  
@@ -198,6 +208,15 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 ![5.2.5.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.5.3-confirm-change.png)  
 （４）変更後、デスクトップ一覧にてバーストモードは「無制限モード」に変更されたことを確認できます。  
 ![5.2.5.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.5.4-confirm-result.png)  
+## 4.2.6 グループ変更
+（１）管理者メニューのデスクトップ管理より、「グループ変更」を押下します。  
+![5.2.6.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.6.1-select-change-group.png)  
+（２）デスクトップ一覧より、変更対象を選択し、「変更」を押下します。
+![5.2.6.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.6.2-change-group.png)  
+（３）問題ないことを確認したら□にチェックを入れてOKボタンを押下します。  
+![5.2.6.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.6.3-confirm-change-group.png)  
+（４）グループが変更されていることを確認します。
+
 ## 4.3 スナップショット管理
 ## 4.3.1 スナップショットの作成
 （１）管理者メニューより、「スナップショット管理」を選択します。  
@@ -398,3 +417,11 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 削除対象確認し、問題なければOKを押下します。  
 ![5.7.2.3.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.3.3-confirm-change.png)  
 ユーザーが削除されたことを確認します。  
+## 4.7.2.4 既存ユーザーMFA初期化
+ポータル設定＞管理者ユーザー管理を押下します。  
+![5.7.2.3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.3.1-select-user-mgmt.png)  
+対象ユーザーの初期化ボタンを押下します。  
+![5.7.2.4.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.1-mfa-init.png) 
+問題ないことを確認したら□にチェックを入れてOKボタンを押下します。  
+![5.7.2.4.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.2-confirm-mfa-init.png) 
+MFA初期化が成功しました。  
