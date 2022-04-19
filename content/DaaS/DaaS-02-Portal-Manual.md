@@ -11,14 +11,29 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 本資料は、管理者向けのDaaSポータルを利用するための手順を記述したものです。  
 ## 2. ログイン
 （１）弊社より事前に展開したショートカットより、操作ポータルを開きます。  
+※ログインページにて「詳細設定」を開きます。  
+ ![詳細設定](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/2.png "詳細設定")  
+（２）「xxxxxxにアクセスする」リンクをクリックします。  
+ ![SSL確認](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/3.png "SSL確認")   
+（３）以下のユーザー名とパスワードを入力し、ログインを押下します。  
+・ユーザー名：弊社より事前に展開したもの  
+・パスワード：弊社より事前に展開したもの
 ![3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.1-portal-login.png)  
-（２）以下のユーザー名とパスワードを入力し、ログインを押下します。
-- ユーザー名：弊社より事前に展開したもの
-- パスワード：弊社より事前に展開したもの
 
-（３）初めてログインする際はMFA登録を行う必要があります。  
-（４）MFA登録を行ったデバイスからワンタイムパスワードを入力します。  
-![3.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.3-mfa-login.png)  
+（４）初めてログインする際はMFA登録を行う必要があります。  
+Google Authenticator等、スマートやフォンタブレット等のデバイスを使ったワンタイムパスワードが必要です。  
+ここでは Google Authenticator を使用しています。  
+> Android 用 Google Authenticator は[こちら](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)からダウンロードしてください。
+>
+> iOS用 Google Authenticator は[こちら](https://apps.apple.com/app/google-authenticator/id388497605)からダウンロードしてください。  
+
+・Google Authenticator でQRコードを読み込んでください。  
+・Google Authenticator に表示された 6桁の認証コードを入力してください。  
+・「次へ」をクリックします。  
+![3.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.4-mfa-regi.png)  
+
+※２回目以降ログインする場合は下記のようなワンタイムパスワード入力画面が表示します。  
+![3.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.3-mfa-login.png)  
 （５）ログイン成功していることを確認します。  
 ## 3. 共通ヘッダー
 ## 3.1 地域
@@ -34,10 +49,7 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 ![4.1.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.1.3-logout.png)  
 ## 3.4 マニュアル
 ヘッダ右側のマニュアルボタンを押下することで、テクニカルサイトにアクセスすることができます。  
-![4.1.4](./images/DaaS-02-Portal-Manual/4.1.4-manual.png)  
-<!--
 ![4.1.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.1.4-manual.png)  
--->
 ## 4. 管理者メニュー
 ## 4.1 ダッシュボード
 ダッシュボード機能についてご紹介します。  
@@ -423,5 +435,5 @@ thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
 対象ユーザーの初期化ボタンを押下します。  
 ![5.7.2.4.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.1-mfa-init.png) 
 問題ないことを確認したら□にチェックを入れてOKボタンを押下します。  
-![5.7.2.4.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.2-confirm-mfa-init.png) 
+![5.7.2.4.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.2-confirm-mfa-init.png)  
 MFA初期化が成功しました。  
