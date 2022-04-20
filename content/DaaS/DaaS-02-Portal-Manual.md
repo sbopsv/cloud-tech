@@ -90,7 +90,8 @@ Google Authenticator等、スマートやフォンタブレット等のデバイ
 ![5.2.1.1.6](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.6-create-group.png)  
 （７）その他設定  
 - VSwitch：デスクトップが所属するVSwitchを選択します。  
-- パスワード：デスクトップのログインパスワードを設定します。（※作成されたデスクトップのユーザー名はadministratorとなります。）  
+- ユーザー名：user-xxx(xxxはインスタンス名のecs_daas_xxxと同じ三桁数字になります。)  
+- パスワード：デスクトップのログインパスワードを設定します。（※作成されたデスクトップのユーザー名はuser-xxxとなります。）  
 - 課金方式：従量課金またはサブスクリプションを選択します。  
 - 作成台数：デスクトップの作成台数を設定します。（2以上を設定した場合、同様なデスクトップが複数作成されます。）  
 ![5.2.1.1.7](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.7-create-others.png)  
@@ -223,11 +224,11 @@ Google Authenticator等、スマートやフォンタブレット等のデバイ
 ## 4.2.6 グループ変更
 （１）管理者メニューのデスクトップ管理より、「グループ変更」を押下します。  
 ![5.2.6.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.6.1-select-change-group.png)  
-（２）デスクトップ一覧より、変更対象を選択し、「変更」を押下します。
+（２）デスクトップ一覧より、変更対象を選択し、「変更」を押下します。  
 ![5.2.6.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.6.2-change-group.png)  
 （３）問題ないことを確認したら□にチェックを入れてOKボタンを押下します。  
 ![5.2.6.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.6.3-confirm-change-group.png)  
-（４）グループが変更されていることを確認します。
+（４）グループが変更されていることを確認します。  
 
 ## 4.3 スナップショット管理
 ## 4.3.1 スナップショットの作成
@@ -433,7 +434,7 @@ Google Authenticator等、スマートやフォンタブレット等のデバイ
 ポータル設定＞管理者ユーザー管理を押下します。  
 ![5.7.2.3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.3.1-select-user-mgmt.png)  
 対象ユーザーの初期化ボタンを押下します。  
-![5.7.2.4.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.1-mfa-init.png) 
+![5.7.2.4.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.1-mfa-init.png)  
 問題ないことを確認したら□にチェックを入れてOKボタンを押下します。  
 ![5.7.2.4.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.2-confirm-mfa-init.png)  
 MFA初期化が成功しました。  
