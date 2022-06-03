@@ -42,7 +42,7 @@ jobs:
       - name: Build
         run: gatsby build --prefix-paths
       
-      - name: Check build result
+      - name: Check build result/
         run: ls -la public
 
       - name: Upload docs
