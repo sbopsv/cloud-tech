@@ -110,17 +110,17 @@ Alibaba Cloudドキュメント：Alibaba Cloud - 汎用
 
 
 #### ステップバイステップ手順書
-SBCloudドキュメント：ダイレクトアクセス
-https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/network-connect-case/DirectAccessOpeningGuide_ver1.3_20220602.pdf
-ソフトバンクドキュメント：サービス紹介書
-https://www.softbank.jp/biz/nw/nwp/cloud_access/direct_access_for_alibaba/
-Alibaba Cloudドキュメント:VPN ゲートウェイを経由したローカルデータセンターから Alibaba Cloudへの接続
-https://www.alibabacloud.com/cloud-tech/doc-detail/87042.htm
-Yamahaルータを用いたVPNトンネルによる接続
-https://network.yamaha.com/setting/router_firewall/cloud/alibaba_cloud
+SBCloudドキュメント：ダイレクトアクセス    
+> https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/network-connect-case/DirectAccessOpeningGuide_ver1.3_20220602.pdf
+ソフトバンクドキュメント：サービス紹介書   
+> https://www.softbank.jp/biz/nw/nwp/cloud_access/direct_access_for_alibaba/
+Alibaba Cloudドキュメント:VPN ゲートウェイを経由したローカルデータセンターから Alibaba Cloudへの接続   
+> https://www.alibabacloud.com/cloud-tech/doc-detail/87042.htm
+Yamahaルータを用いたVPNトンネルによる接続    
+> https://network.yamaha.com/setting/router_firewall/cloud/alibaba_cloud
 
 #### 本構成が当てはまるシステムの要件
-ダイレクトアクセスによる日中接続を前提として、以下の要件に最適と言えます。
+ダイレクトアクセスによる日中接続を前提として、以下の要件に最適と言えます。   
 
  - オンプレミスの基幹システムと連動したAlibaba Cloudの利用
  - オンプレミスとAlibaba Cloudでのシームレスなデータ連携
@@ -137,7 +137,7 @@ Alibaba Cloud以外のパブリッククラウドと比較して、何がメリ�
 
   - ネットワーク品質が保証されている   
   　　→帯域幅を購入する事でSLAに沿った品質が担保される   
-  - 日中アカウントを単一のコンソールで管理できる   
+  - 日中アカウントを単一のコンソールで管理できる   
   　　→ユーザ管理も含めて一括管理可能    
   - ネットワークセキュリティの実績が豊富    
   　　→中国国内の数多く攻撃から防御した実績のあるプロダクト・構成を利用できる   
