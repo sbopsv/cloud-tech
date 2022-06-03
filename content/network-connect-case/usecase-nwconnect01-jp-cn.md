@@ -109,15 +109,19 @@ Alibaba Cloudドキュメント：Alibaba Cloud - 汎用
 また、VPNトンネルの構成でも、ダイレクトアクセスの構成でも、CENを併用する事で複数のVPCとオンプレミスとを一括で接続する事が可能です。   
 
 
-#### ステップバイステップ手順書
+#### ステップバイステップ手順書  
 SBCloudドキュメント：ダイレクトアクセス    
 > https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/network-connect-case/DirectAccessOpeningGuide_ver1.3_20220602.pdf
+
 ソフトバンクドキュメント：サービス紹介書   
 > https://www.softbank.jp/biz/nw/nwp/cloud_access/direct_access_for_alibaba/
+
 Alibaba Cloudドキュメント:VPN ゲートウェイを経由したローカルデータセンターから Alibaba Cloudへの接続   
 > https://www.alibabacloud.com/cloud-tech/doc-detail/87042.htm
+
 Yamahaルータを用いたVPNトンネルによる接続    
 > https://network.yamaha.com/setting/router_firewall/cloud/alibaba_cloud
+
 
 #### 本構成が当てはまるシステムの要件
 ダイレクトアクセスによる日中接続を前提として、以下の要件に最適と言えます。   
