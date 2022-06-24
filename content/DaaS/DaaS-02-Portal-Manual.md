@@ -78,9 +78,14 @@ Google Authenticator等、スマートやフォンタブレット等のデバイ
 （４）システムディスクのタイプとサイズを入力します。  
 ※本手順ではHDDの40GBとします。  
 ![5.2.1.1.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.4-create-system-disk.png)  
-（５）データディスクの個数を入力し、ディスクのタイプとサイズを入力します。  
+（５）データディスクの有無を指定します。  
+**データディスクありの場合**  
+個数を入力し、ディスクのタイプとサイズを入力します。  
 ※本手順では1個のデータディスク（HDD、40GB）を作成します。  
 ![5.2.1.1.5](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.5-create-data-disk.png)  
+**データディスクなしの場合**  
+個数に0を入力します。  
+![5.2.1.1.5.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.2.1.1.5-create-data-disk2.png)  
 （６）デスクトップがどのグループに所属するかを選択します。  
 - 未所属：defaultのグループに表示されます。  
 - 既存のグループから選択：既存のグループより指定します。  
@@ -438,3 +443,64 @@ Google Authenticator等、スマートやフォンタブレット等のデバイ
 問題ないことを確認したら□にチェックを入れてOKボタンを押下します。  
 ![5.7.2.4.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.2.4.2-confirm-mfa-init.png)  
 MFA初期化が成功しました。  
+## 4.8 アイドルタイムアウト管理
+左メニューより、「アイドルタイムアウト管理」を押下します。  
+![4.8.1.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.1-menu.png)  
+## 4.8.1 アイドルタイムアウトジョブの作成
+（１）ジョブ一覧の作成ボタンを押下します。  
+![4.8.1.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.2-click-create.png)  
+（２）ジョブ名と説明を入力します。  
+※説明は省略可  
+![4.8.1.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.3-job-name.png)  
+（３）本ジョブの処理内容（デスクトップの課金停止 または 作成時のイメージに初期化）を選択します。  
+※作成時に選択したイメージが削除されている場合、初期化は失敗します。  
+![4.8.1.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.4-what-to-do.png)  
+（４）アイドルタイムアウトによる処理の実行  
+仮想デスクトップが一定時間以上アイドル状態だった場合に処理を実行するかを指定します。  
+また、実行する場合は、アイドルタイムを分単位で指定します。
+![4.8.1.5](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.5-idle-timeout.png)  
+（５）その他の実行オプション  
+![4.8.1.6](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.6-other-options.png)  
+- デスクトップにログオンしているユーザがいない場合に処理を実行するか  
+ジョブ実行時にログオン数0を検知した場合に実行するかを指定します。  
+- デスクトップがシャットダウン状態かつ課金継続状態の場合に処理を実行するか  
+ジョブ実行時にシャットダウン状態かつ課金継続状態を検知した場合に実行するかを指定します。  
+
+（６）処理を実行したいデスクトップを選択します。  
+※複数選択可  
+![4.8.1.7](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.7-select-daas.png)  
+（７）以上の項目を入力後、「次へ」を押下します。  
+![4.8.1.8](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.8-next.png)  
+（８）最終確認後、問題なければOKボタンを押下します。  
+![4.8.1.9](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.9-end.png)  
+以上でジョブの作成が完了しました。
+
+## 4.8.2 アイドルタイムアウトジョブの設定変更
+アイドルタイムアウトジョブの設定を変更したい場合は、以下の手順を実施します。  
+（１）対象ジョブの「設定変更」ボタンを押下します。  
+![4.8.2.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.2.1-click-change-button.png)  
+（２）変更したい項目の値を変更します。  
+※「ジョブ名」は変更できません。  
+![4.8.2.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.2.2-change-settings.png)  
+（３）ジョブの有効状態  
+ジョブを無効化したり、過去に無効化したジョブを有効化したりできます。
+![4.8.2.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.2.3-enable-disable-job.png)  
+（４）処理対象のデスクトップを変更したい場合は変更します。  
+※複数選択可  
+![4.8.2.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.2.4-select-daas.png)  
+（５）以上の項目を入力後、「次へ」を押下します。  
+![4.8.1.8](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.8-next.png)  
+（６）最終確認後、問題なければOKボタンを押下します。  
+![4.8.1.9](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.9-end.png)  
+以上でジョブの設定変更が完了しました。  
+## 4.8.3 アイドルタイムアウトジョブの削除
+アイドルタイムアウトジョブを削除したい場合は、以下の手順を実施します。  
+（１）対象のジョブにチェックを入れます。  
+![4.8.3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.3.1-select-targets.png)  
+（２）削除ボタンを押下します。  
+![4.8.3.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.3.2-click-delete-button.png)  
+（３）削除対象の詳細を確認後、問題なければ「OK」ボタンを押下します。  
+![4.8.3.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.3.3-end.png)  
+（４）「完了」ボタンを押下します。  
+![4.8.3.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.3.4-end2.png)  
+以上でジョブの削除が完了しました。   
