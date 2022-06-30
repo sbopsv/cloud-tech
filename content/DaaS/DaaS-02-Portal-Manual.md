@@ -457,7 +457,7 @@ MFA初期化が成功しました。
 ![4.8.1.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.4-what-to-do.png)  
 （４）アイドルタイムアウトによる処理の実行  
 仮想デスクトップが一定時間以上アイドル状態だった場合に処理を実行するかを指定します。  
-また、実行する場合は、アイドルタイムを分単位で指定します。
+また、実行する場合は、アイドルタイムを分単位で指定します。  
 ![4.8.1.5](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.5-idle-timeout.png)  
 （５）その他の実行オプション  
 ![4.8.1.6](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.6-other-options.png)  
@@ -473,7 +473,7 @@ MFA初期化が成功しました。
 ![4.8.1.8](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.8-next.png)  
 （８）最終確認後、問題なければOKボタンを押下します。  
 ![4.8.1.9](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.1.9-end.png)  
-以上でジョブの作成が完了しました。
+以上でジョブの作成が完了しました。  
 
 ## 4.8.2 アイドルタイムアウトジョブの設定変更
 アイドルタイムアウトジョブの設定を変更したい場合は、以下の手順を実施します。  
@@ -483,7 +483,7 @@ MFA初期化が成功しました。
 ※「ジョブ名」は変更できません。  
 ![4.8.2.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.2.2-change-settings.png)  
 （３）ジョブの有効状態  
-ジョブを無効化したり、過去に無効化したジョブを有効化したりできます。
+ジョブを無効化したり、過去に無効化したジョブを有効化したりできます。  
 ![4.8.2.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.8.2.3-enable-disable-job.png)  
 （４）処理対象のデスクトップを変更したい場合は変更します。  
 ※複数選択可  
