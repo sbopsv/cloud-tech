@@ -1,0 +1,107 @@
+---
+title: "Cloud Remote Desktop on Alibaba(MultiCloud)操作ポータル - ユーザマニュアル"
+metaTitle: "Cloud Remote Desktop on Alibaba(MultiCloud)操作ポータル - ユーザマニュアル"
+metaDescription: "Cloud Remote Desktop on Alibaba(MultiCloud)操作ポータルのユーザ向けマニュアルです。"
+date: "2022-08-02"
+author: "Yoshihiro Matsuda"
+thumbnail: "/images/DaaS-02-Portal-Manual/3.1-portal-login.png"
+---
+
+## 1. はじめに
+本資料は、一般ユーザ向けのCloud Remote Desktop on Alibaba(MultiCloud)操作ポータルを利用するための手順を記述したものです。  
+## 2. ログイン
+（１）弊社より事前に展開したショートカットより、操作ポータルを開きます。  
+※ログインページにて「詳細設定」を開きます。  
+ ![詳細設定](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/2.png "詳細設定")  
+（２）「xxxxxxにアクセスする」リンクをクリックします。  
+ ![SSL確認](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-03-RemoteGateway-AdminManual/1/3.png "SSL確認")   
+（３）ユーザー名とパスワードを入力し、ログインを押下します。  
+![3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-04-Portal-AdminManual/3.1-portal-login.png)  
+
+（４）初めてログインする際はMFA登録を行う必要があります。  
+Google Authenticator等、スマートやフォンタブレット等のデバイスを使ったワンタイムパスワードが必要です。  
+ここでは Google Authenticator を使用しています。  
+> Android 用 Google Authenticator は[こちら](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)からダウンロードしてください。
+>
+> iOS用 Google Authenticator は[こちら](https://apps.apple.com/app/google-authenticator/id388497605)からダウンロードしてください。  
+
+・Google Authenticator でQRコードを読み込んでください。  
+・Google Authenticator に表示された 6桁の認証コードを入力してください。  
+・「次へ」をクリックします。  
+![3.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.4-mfa-regi.png)  
+
+※２回目以降ログインする場合は下記のようなワンタイムパスワード入力画面が表示します。  
+![3.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/3.3-mfa-login.png)  
+（５）ログイン成功していることを確認します。  
+## 3. 共通ヘッダー
+## 3.1 プロバイダー
+ヘッダー左側のプロバイダーボタンを押下することで、クラウドプロバイダーごとのデスクトップ一覧を切り替えることができます。  
+![3.1.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.1.0-provider.png)  
+## 3.2 地域
+ヘッダー左側の地域ボタンを押下することで、地域ごとのデスクトップ一覧を切り替えることができます。  
+※デフォルトは日本（東京）リージョンが選択されています。  
+![3.2.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.1.1-region.png)  
+## 3.3 ログイン情報
+ヘッダー右側に、ご自身のユーザ名と前回ログイン日時が表示されます。  
+![3.3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-04-Portal-AdminManual/3.2.1-logon-time.png)  
+## 3.4 ドキュメント
+ヘッダ右側のドキュメントボタンを押下することで、テクニカルサイトにアクセスすることができます。  
+![3.4.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.1.4-document.png)  
+## 3.5 サポート
+ヘッダー右側のサポートボタンを押下することで、ソフトバンク（元SBクラウド）へ問い合わせすることができます。  
+※問い合わせは別途弊社のサポートサービスと契約する必要があります。  
+![3.5.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.1.2-support.png)  
+## 3.6 ログアウト
+ヘッダ右側のログアウトボタンを押下することで、ポータルよりログアウトすることができます。  
+![3.6.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/4.1.3-logout.png)  
+
+## 4. メニュー
+## 4.1 デスクトップ起動・停止・再起動
+メニューより「起動・再起動・停止」を押下します。  
+ここでは、ご自身のユーザに紐づけられているデスクトップの各操作（起動・停止・再起動）を行うことができます。  
+![4.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-05-Portal-UserManual/4.1-desktop-menu.png)  
+## 4.1.1 デスクトップの起動
+（１）デスクトップの起動：  
+①デスクトップ一覧より、一台または複数台のデスクトップを選択します。  
+②「一括起動」を選択します。  
+※「ステータス」が起動中と停止中のタスクを同時に選択することはできません。  
+![4.1.1.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.1.1-desktop-start.png)  
+（２）ポップアップ画面にて、起動対象のデスクトップを確認します。「OK」を押下します。  
+![4.1.1.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.1.2-desktop-start-confirm.png)  
+（３）起動が成功したことを確認します。  
+「完了」ボタンを押下します。  
+![4.1.1.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.1.3-desktop-start-success.png)  
+## 4.1.2 デスクトップの再起動
+（１）デスクトップの再起動：  
+①デスクトップ一覧より、一台または複数台のデスクトップを選択します。  
+②「一括再起動」を選択します。  
+※「ステータス」が停止中のデスクトップを選択することはできません。  
+![4.1.2.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.2.1-desktop-restart.png)  
+（２）ポップアップ画面にて再起動対象のデスクトップを確認します。  
+「OK」を押下します。  
+![4.1.2.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.2.2-desktop-restart-confirm.png)  
+（３）再起動が成功したことを確認します。  
+「完了」ボタンを押下します。  
+![4.1.2.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.2.3-desktop-restart-success.png)  
+## 4.1.3 デスクトップの停止
+（１）デスクトップの停止：  
+①デスクトップ一覧より、一台または複数台のデスクトップを選択します。  
+②「一括停止」を選択します。  
+※「ステータス」が停止中、または起動中と停止中複数のデスクトップを選択することはできません。  
+![4.1.3.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.3.1-desktop-stop.png)  
+（２）ポップアップにて停止対象のデスクトップ一覧を確認します。  
+「OK」ボタンを押下します。  
+![4.1.3.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.3.2-desktop-stop-confirm.png)  
+（３）停止が成功したことを確認します。  
+「完了」ボタンを押下します。  
+![4.1.3.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-07-MultiCloud-Alibaba-UserManual/4.1.3.3-desktop-stop-success.png)  
+## 4.2 パスワード変更
+ご自身のユーザのパスワードを変更することができます。  
+メニューより「パスワード変更」を押下します。  
+![4.2.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-05-Portal-UserManual/4.2.1-change-password.png)  
+パスワード変更ボタンを押下します。  
+![4.2.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-05-Portal-UserManual/4.2.2-change-password.png)  
+現在のパスワードと新パスワードを入力し、OKボタンを押下します。  
+![4.2.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-05-Portal-UserManual/4.2.3-change-password-form.png)  
+以下のメッセージが表示されると完了です。  
+![4.2.4](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-05-Portal-UserManual/4.2.4-change-password-complete.png)  
