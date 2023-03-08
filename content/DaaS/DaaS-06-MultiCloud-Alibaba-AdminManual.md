@@ -474,20 +474,214 @@ Google Authenticator等、スマートやフォンタブレット等のデバイ
 （３）追加内容を確認し、問題なければ「OK」を押下します。  
 ![5.6.1.2.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.6.1.2.3-confirm-change.png)  
 （４）追加完了後、SAP APPユーザー情報一覧に追加したユーザーを確認できます。  
-## 4.7.2 VPN管理
-（１）管理者メニューより、VPN管理を選択します。  
-![5.6.2.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.6.2.1-select-vpn-mgmt.png)  
-（２）VPN Gatewayインスタンス情報が表示され、既存のVPNインスタンス情報を確認できます。  
-![5.6.2.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.6.2.2-vpn-info.png)  
-## 4.8 ポータル設定
-## 4.8.1 アカウント情報更新
-ポータル設定＞アクセスキー更新を押下します。  
-![5.7.1.1](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-06-MultiCloud-Alibaba-AdminManual/5.7.1.1-menu-accesskey.png)  
-更新ボタンを押下します。  
-![5.7.1.2](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.1.2-accesskey-refresh.png)  
-アクセスキーが正しく更新されたことを確認します。  
-![5.7.1.3](https://raw.githubusercontent.com/sbopsv/cloud-tech/master/content/DaaS/images/DaaS-02-Portal-Manual/5.7.1.3-accesskey-confirm.png)  
-以上で、アクセスキーの更新が完了しました。  
+## 4.7.2 セキュリティグループ
+### 4.7.2.1 ルールの表示
+（１）管理者メニューより、セキュリティグループを選択します。  
+
+![4.7.2.1.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.1.1-sg-menu.png)  
+
+（２）プルダウンより表示対象のセキュリティグループを選択します。  
+
+![4.7.2.1.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.1.2-sg-select.png)  
+
+（３）対象セキュリティグループのルール一覧が表示されます。  
+　　　インバウンドとアウトバウンドタブにてそれぞれのルールが表示されます。  
+
+![4.7.2.1.3](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.1.3-sg-rule-list.png)  
+
+### 4.7.2.2 ルールの追加
+（１）インバウンドタブを選択したまま、「ルールの追加」ボタンを押下します。  
+※アウトバウンドルールを追加する場合は、アウトバウンドタブを選択したまま、「ルールの追加」ボタンを押下します。  
+
+![4.7.2.2.0](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.2.0-sg-add-rule-button.png)  
+  
+以下の項目を入力します。  
+・権限付与ポリシー：プルダウンより選択（許可／拒否）します。  
+・優先度：1から100までの数値を入力します。デフォルトは1（一番優先度高い）となります。  
+・プロトコルタイプ：プルダウンより選択します。  
+・ポート範囲：1から65535までの数値を入力します。  
+・送信元／送信先：IPアドレスのCIDRフォーマットで入力します。例：47.12.34.56/32、192.168.0.0/24  
+・説明（任意）：セキュリティルールの説明文を入力します。  
+  
+  ![4.7.2.2.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.2.1-sg-add-rule.png)  
+  
+入力後、
+![4.7.2.2.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.2.2-sg-add-rule-confirm.png)
+ボタンを押下して、入力を確定します。  
+複数ルールを追加する場合は、
+![4.7.2.2.3](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.2.3-sg-add-rule-add-col.png)
+ボタンを押下して入力行を追加できます。  
+行を削除する場合は、
+![4.7.2.2.4](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.2.4-sg-add-rule-del-col.png)
+ボタンを押下して、削除可能です。  
+  
+（２）追加対象のセキュリティグループを選択します。複数セキュリティグループを追加する場合は、複数チェックをいれます。  
+
+![4.7.2.2.5](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.2.5-sg-add-rule-select-sg.png)  
+
+（３）「次へ」ボタンを押下します。  
+
+（４）追加内容を確認し、問題なければチェックし、「OK」ボタンを押下します。  
+
+![4.7.2.2.6](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.2.6-sg-add-rule-confirm.png)  
+
+（５）ルールが正しく追加されたことを確認します。  
+
+### 4.7.2.3 ルールの削除
+（１）削除対象ルール行の「削除」ボタンを押下します。  
+
+![4.7.2.3.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.3.1-sg-del-rule.png)  
+
+（２）削除内容を確認し、問題なければチェックを入れ、「OK」ボタンを押下します。  
+
+![4.7.2.3.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.2.3.2-sg-del-rule-confirm.png)  
+
+（３）ルールが正しく削除されたことを確認します。  
+  
+## 4.7.3 NATゲートウェイ
+### 4.7.3.1 NATゲートウェイ情報の確認
+（１）管理者メニューより、NATゲートウェイを選択します。  
+
+![4.7.3.1.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.3.1.1-nat-menu.png)  
+
+（２）基本情報タブにてNATゲートウェイの基本情報を確認することができます。  
+  
+以下の項目を確認できます。  
+
+・インスタンス名：NATゲートウェイの名前  
+・説明：NATゲートウェイの用途  
+・VPC：NATゲートウェイと関連付けているVPCのID  
+・ステータス：NATゲートウェイのステータス  
+・プライベートIP：NATゲートウェイのプライベートIPアドレス  
+
+![4.7.3.1.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.3.1.2-nat-info-1.png)  
+  
+（３）関連するEIPタブにて、NATゲートウェイのグローバルIP情報を確認することができます。  
+  
+以下の項目を確認できます。  
+
+・EIPアドレス：グローバルIPアドレスの値  
+・帯域幅：IPアドレスの帯域幅  
+・ステータス：IPアドレスのステータス  
+
+![4.7.3.1.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.3.1.2-nat-info-2.png)
+
+### 4.7.3.2 NATゲートウェイの削除
+※ポータルの利用はインターネットへの接続が必須のため、有効なIPSec接続がない場合は、NATゲートウェイの「削除」ボタンを押下できません。  
+（１）「削除」ボタンを押下します。  
+
+![4.7.3.2.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.3.2.1-nat-del.png)  
+
+（２）NATゲートウェイ以外にインターネットへの接続があることを確認し、「削除」ボタンを押下します。  
+
+![4.7.3.2.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.3.2.2-nat-del-confirm.png)  
+
+（３）NATゲートウェイが正しく削除されることを確認します。（削除に2〜3分かかります）  
+
+※削除後すぐ再作成する場合は失敗する可能性があります。非同期削除のため、しばらく時間経ってから再度作成を試してください。  
+
+### 4.7.3.3 NATゲートウェイの作成
+（１）「作成」ボタンを押下します。（作成に2〜3分かかります。）  
+
+![4.7.3.3.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.3.3.1-nat-create.png)  
+
+※ポータルからNATゲートウェイを作成する場合は、入力パラメータはありません。  
+
+以下の既定値にて作成されます。  
+
+・インスタンス名：nat-daas  
+・説明：Cloud Remote GatewayのNAT Gateway  
+・EIP帯域幅：200Mbit/s（トラフィック課金）  
+
+## 4.7.4 VPNゲートウェイ
+### 4.7.4.1 VPNゲートウェイの作成
+（１）管理者メニューより、VPNゲートウェイを選択します。  
+
+![4.7.4.1.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.1.1-vpn-menu.png)  
+
+（２）「作成」ボタンを押下します。  
+
+![4.7.4.1.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.1.2-vpn-create.png)  
+
+（３）以下の項目を入力します。  
+
+・宛先CIDRブロック：接続先のプライベートネットワークセグメント。例：192.168.0.0/24  
+
+・カスタマーゲートウェイ：  
+　○ IPアドレス：接続先のVPNゲートウェイのグローバルIPアドレス  
+　○ ASN（任意）；ASに一意に振られる番号（指定がなければ空欄のままで問題ありません）  
+　○ 事前共有鍵（16桁）：接続先と共有する事前共有鍵を入力します。（入力なければ自動で作成します。）  
+
+・IKEバージョン：プルダウンより選択します。（デフォルト：ikev2）  
+・IKEネゴシエーションモード：プルダウンより選択します。（デフォルト：main）  
+・IKE暗号化アルゴリズム：プルダウンより選択します。（デフォルト：aes256）  
+・IKE認証アルゴリズム：プルダウンより選択します。（デフォルト：sha256）  
+・IKE DHグループ：プルダウンより選択します。（デフォルト：group2）  
+・IKE SAライフサイクル：SAライフサイクルを入力します。（デフォルト：86400）  
+
+・IPSec暗号化アルゴリズム：プルダウンより選択します。（デフォルト：aes256）  
+・IPSec認証アルゴリズム：プルダウンより選択します。（デフォルト：sha256）  
+・IPSec DHグループ：プルダウンより選択します。（デフォルト：group2）  
+・IPSec SAライフサイクル：SAライフサイクルを入力します。（デフォルト：86400）  
+
+・DPD： ON／OFFを選択します。（デフォルト：ON）  
+・NATトラバーサル：ON／OFFを選択します。（デフォルト： ON）  
+
+（４）作成内容を確認し、問題なければチェックを入れ、「OK」ボタンを押下します。  
+
+![4.7.4.1.3](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.1.6-vpn-create-confirm.png)  
+
+（５）VPNゲートウェイが正しく作成されることを確認します。  
+
+### 4.7.4.2 VPNゲートウェイの確認
+（１）基本情報タブにてVPNゲートウェイの基本情報を確認できます。
+
+![4.7.4.2.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.2.1-vpn-info-basic.png)  
+
+（２）「ルート確認」ボタンを押下し、VPNゲートウェイに設定された宛先CIDRブロックを確認できます。  
+
+![4.7.4.2.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.2.2-vpn-info-route.png)  
+
+（３）IPSECコネクションタブにてIPSECの情報を確認できます。  
+
+![4.7.4.2.3](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.2.3-vpn-info-ipsec.png)  
+
+（４）「詳細表示」ボタンを押下し、詳細なIPSEC設定情報を確認できます。  
+
+![4.7.4.2.4](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.2.4-vpn-info-ipsec-details.png)  
+
+※事前共有鍵を自動作成する場合は、こちらのメニューより確認できます。  
+
+### 4.7.4.3 VPNゲートウェイの削除
+（１）IPSecコネクションの「削除」ボタンを押下します。  
+※ポータルの利用はインターネットへの接続が必須のため、有効なNATゲートウェイ接続がない場合は、IPSec接続の「削除」ボタンを押下できません。  
+
+![4.7.4.2.3](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.2.3-vpn-info-ipsec.png)  
+
+（２）削除内容を確認し、問題なければチェックをいれ、「OK」ボタンを押下します。（※削除に2〜3分かります。）  
+
+![4.7.4.3.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.3.1-vpn-del-ipsec.png)  
+
+（３）IPSec接続が正しく削除されたことを確認します。  
+
+（４）VPNゲートウェイの「削除」ボタンを押下します。  
+
+![4.7.4.3.2](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.3.2-vpn-del-vpn.png)  
+
+（５）削除内容を確認し、問題なければチェックをいれ、「OK」ボタンを押下します。  
+
+![4.7.4.3.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.3.1-vpn-del-ipsec.png)  
+
+（６）VPNゲートウェイが正しく削除されたことを確認します。  
+
+※削除後すぐ再作成する場合は失敗する可能性があります。非同期削除のため、しばらく時間経ってから再度作成を試してください。 
+
+### 4.7.4.4 IPSecコネクションの追加
+※上記「4.7.4.3 VPNゲートウェイの削除」章にてIPSecコネクションを削除後、追加ボタンが押下できるようになります。  
+![4.7.4.4.1](images/DaaS-06-MultiCloud-Alibaba-AdminManual/4.7.4.4.1-vpn-ipsec-add.png)  
+こちらにて、既存のVPNゲートウェイを保持したままで、新規IPSecコネクションを再作成することができます。  
+入力パラメーターは「4.7.4.1 VPNゲートウェイの作成」章をご参照ください。  
+
 ## 4.8.2 ユーザ管理
 ## 4.8.2.1 新規ユーザ作成
 ポータルユーザには管理者ユーザと一般ユーザの2種類が存在します。  

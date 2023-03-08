@@ -1,6 +1,0 @@
-2021-07-07 15:47:33  -  start upload:test_nonpartition.txt
-2021-07-07 15:47:33  -  start scan , blockid=1
-2021-07-07 15:47:33  -  scan complete, blockid=1
-2021-07-07 15:47:33  -  start upload , blockid=1
-2021-07-07 15:47:34  -  upload complete, blockid=1
-2021-07-07 15:47:34  -  upload complete:test_nonpartition.txt

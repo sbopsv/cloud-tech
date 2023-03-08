@@ -1,4 +1,0 @@
-2021-07-07 14:41:06  -  new session: 20210707144105cf37696400806944	total lines: 1,411
-2021-07-07 14:41:06  -  file [0]: [0, 1,411), test_nonpartition.txt
-2021-07-07 14:41:06  -  file [0] start
-2021-07-07 14:41:18  -  file [0] OK. total: 71 KB
