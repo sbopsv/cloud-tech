@@ -1,0 +1,176 @@
+2021-07-07 13:41:48  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:08:09  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:10:45  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:11:07  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:11:25  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:11:45  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:12:45  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:13:33  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:13:44  -  java.lang.IllegalArgumentException: Unrecognized command
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:615)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:39:38  -  java.lang.IllegalArgumentException: Invalid parameter: project.table
+Type 'tunnel help download' for usage.
+	at com.aliyun.odps.ship.common.OptionsBuilder.processArgs(OptionsBuilder.java:574)
+	at com.aliyun.odps.ship.common.OptionsBuilder.buildDownloadOption(OptionsBuilder.java:95)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:74)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
+2021-07-07 14:40:24  -  java.io.IOException: ERROR: download read error, retry exceed 5.
+RequestId=20210707144025653a696400808ed6, ErrorCode=TableModified, ErrorMessage=The specified table has been modified since the download initiated. Try initiate another download.
+	at com.aliyun.odps.ship.download.DshipRecordReader.initReader(DshipRecordReader.java:78)
+	at com.aliyun.odps.ship.download.DshipRecordReader.initReader(DshipRecordReader.java:93)
+	at com.aliyun.odps.ship.download.DshipRecordReader.initReader(DshipRecordReader.java:93)
+	at com.aliyun.odps.ship.download.DshipRecordReader.initReader(DshipRecordReader.java:93)
+	at com.aliyun.odps.ship.download.DshipRecordReader.initReader(DshipRecordReader.java:93)
+	at com.aliyun.odps.ship.download.DshipRecordReader.initReader(DshipRecordReader.java:93)
+	at com.aliyun.odps.ship.download.DshipRecordReader.<init>(DshipRecordReader.java:54)
+	at com.aliyun.odps.ship.download.TunnelDownloadSession.getRecordReader(TunnelDownloadSession.java:146)
+	at com.aliyun.odps.ship.download.FileDownloader.download(FileDownloader.java:126)
+	at com.aliyun.odps.ship.download.DshipDownload.download(DshipDownload.java:188)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:76)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+Caused by: RequestId=20210707144025653a696400808ed6, ErrorCode=TableModified, ErrorMessage=The specified table has been modified since the download initiated. Try initiate another download.
+	at com.aliyun.odps.tunnel.io.RawTunnelRecordReader.createTableTunnelReader(RawTunnelRecordReader.java:270)
+	at com.aliyun.odps.tunnel.io.TunnelRecordReader.createNewReader(TunnelRecordReader.java:286)
+	at com.aliyun.odps.tunnel.io.TunnelRecordReader.<init>(TunnelRecordReader.java:138)
+	at com.aliyun.odps.tunnel.TableTunnel$DownloadSession.openRecordReader(TableTunnel.java:1713)
+	at com.aliyun.odps.tunnel.TableTunnel$DownloadSession.openRecordReader(TableTunnel.java:1693)
+	at com.aliyun.odps.ship.download.TunnelDownloadSession.openRecordReader(TunnelDownloadSession.java:164)
+	at com.aliyun.odps.ship.download.DshipRecordReader.openRecordReader(DshipRecordReader.java:101)
+	at com.aliyun.odps.ship.download.DshipRecordReader.initReader(DshipRecordReader.java:90)
+	... 16 more
+
+2021-07-07 15:22:35  -  RequestId=20210707152236653a69640080cb7a, ErrorCode=NoSuchPartition, ErrorMessage=The specified partition does not exist.
+	at com.aliyun.odps.tunnel.TableTunnel$UploadSession.initiate(TableTunnel.java:973)
+	at com.aliyun.odps.tunnel.TableTunnel$UploadSession.<init>(TableTunnel.java:941)
+	at com.aliyun.odps.tunnel.TableTunnel.createUploadSession(TableTunnel.java:245)
+	at com.aliyun.odps.ship.upload.TunnelUploadSession.<init>(TunnelUploadSession.java:94)
+	at com.aliyun.odps.ship.upload.DshipUpload.<init>(DshipUpload.java:78)
+	at com.aliyun.odps.ship.DShip.runSubCommand(DShip.java:69)
+	at com.aliyun.odps.ship.DShipCommand.run(DShipCommand.java:99)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.InteractiveCommand.run(InteractiveCommand.java:108)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.commands.CompositeCommand.run(CompositeCommand.java:48)
+	at com.aliyun.openservices.odps.console.commands.AbstractCommand.execute(AbstractCommand.java:116)
+	at com.aliyun.openservices.odps.console.ODPSConsole.main(ODPSConsole.java:63)
+
