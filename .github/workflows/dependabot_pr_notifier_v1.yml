@@ -1,0 +1,38 @@
+name: Dependabot pr notify
+
+on:
+  pull_request:
+    branches: [ master ]
+    types: [ opened, closed, merged ]
+
+jobs:
+  dependabot_pr_notify:
+    runs-on: ubuntu-20.04
+    if: ${{ contains(github.head_ref, 'dependabot') }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Clone git repository
+        uses: actions/checkout@master
+        with:
+          repository: sbopsv/ghas_modules
+          ref: 'master'
+          token: ${{ secrets.GH_TOKEN_FOR_DEPENDABOT }}
+
+      - name: Environment variable
+        run: |
+          IFS='/' read ORG_NAME REPO_NAME <<< "${{ github.event.repository.full_name }}"
+          echo "ORGANIZATION_NAME=$ORG_NAME" >> $GITHUB_ENV
+
+      - name: Python library install & Exec
+        run: |
+          pip install -r requirements.txt
+          python dependabot/dependabot_pr_notifier.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_FOR_DEPENDABOT }}
+          ORGANIZATION_NAME: ${{ env.ORGANIZATION_NAME }}
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TYPE: ${{ github.event.action }}
+          GHAS_NOTIFY_WEBHOOK_URL: ${{ secrets.WEBHOOK_URL_FOR_DEPENDABOT }}
